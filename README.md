@@ -54,8 +54,11 @@ make uncreate:
 # Formating of wishlist
 The wishlist file formating needs to follow these rules:
 • binary names need to be seperated by spaces or tabs, or a newline
+
 • empty lines are allowed (but ignored)
+
 • lines, that have no text before the first sign and this sign is a '#' are discared as comments
+
 • tabs and other indentation can be used
 the provided wishlist file tries to communicate what kind of formating id allowed
 
