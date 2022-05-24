@@ -1,9 +1,11 @@
+# Put all the binaries you want in here
+ # a shell is required
 bash
-ls
-cp
-pwd
-touch
-cat
-mkdir
-rm
+
+ # fundamental file manipulation
+ls cp pwd rm
+
+touch cat mkdir
+
+	# often useful
 echo
