@@ -41,10 +41,13 @@ The script only deals with the binaries on your system. If you want a binary to 
 # Make commands
 make:
 	if make is called with no attribute the fake_root is emptied. The new fake_root is created and entered.
+
 make create:
 	add the binaries and their required libraries to the fake_root.
+
 make goin:
 	call the chroot command. This requests root permissions via sudo
+
 make uncreate:
 	empty the fake_root directory
 
